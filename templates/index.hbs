@@ -1,0 +1,48 @@
+{{> ui/page-header title="Code health" icon="icon-[tabler--heart-rate-monitor]" subtitle="Size, complexity and maintainability index of EmailEngine and the libraries it is built on, measured at every release and at the current default branch." class="mb-6"}}
+
+<div class="mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
+    {{> ui/stat-card title="Repositories" value=totals.repositories icon="icon-[tabler--git-branch]" variant="primary"}}
+    {{> ui/stat-card title="Source lines" value=totals.sloc icon="icon-[tabler--code]" variant="primary"}}
+    {{> ui/stat-card title="Releases measured" value=totals.releases icon="icon-[tabler--tag]" variant="info"}}
+    {{> ui/stat-card title="Functions with CC > 20" value=totals.ccVeryHigh icon="icon-[tabler--alert-triangle]" variant="warning"}}
+</div>
+
+{{> ui/section-title label="Repositories, current default branch" class="mb-3"}}
+
+<div class="card bg-base-100 shadow-md mb-6">
+    <div class="overflow-x-auto">
+        <table class="table ee-table-stack">
+            <thead>
+                <tr>
+                    <th>Repository</th>
+                    <th class="text-end">Source lines</th>
+                    <th class="text-end">In a year</th>
+                    <th class="text-end">Functions</th>
+                    <th class="text-end">MI</th>
+                    <th class="text-end">In a year</th>
+                    <th class="text-end">Mean CC</th>
+                    <th class="text-end">CC &gt; 20</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each rows}}
+                <tr class="hover:bg-base-200/60">
+                    <td class="relative">
+                        {{> ui/row-link href=href label=(concat "Open " name)}}
+                        <strong>{{name}}</strong>
+                    </td>
+                    <td class="relative md:text-end" data-label="Source lines">{{> ui/row-link href=href label=""}}{{sloc}}</td>
+                    <td class="relative md:text-end text-base-content/70" data-label="Source lines in a year">{{> ui/row-link href=href label=""}}{{#if slocChange}}{{slocChange}}{{else}}-{{/if}}</td>
+                    <td class="relative md:text-end" data-label="Functions">{{> ui/row-link href=href label=""}}{{functions}}</td>
+                    <td class="relative md:text-end" data-label="MI">{{> ui/row-link href=href label=""}}{{mi}}</td>
+                    <td class="relative md:text-end" data-label="MI in a year">{{> ui/row-link href=href label=""}}{{#if miChange}}{{> ui/badge label=miChange.label variant=miChange.variant soft=true icon="" elId="" title="" dataName="" class=""}}{{else}}-{{/if}}</td>
+                    <td class="relative md:text-end" data-label="Mean CC">{{> ui/row-link href=href label=""}}{{ccMean}}</td>
+                    <td class="relative md:text-end" data-label="CC > 20">{{> ui/row-link href=href label=""}}{{ccVeryHigh}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{{> method}}

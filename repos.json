@@ -1,5 +1,5 @@
 [
-    { "name": "emailengine", "url": "https://github.com/postalsys/emailengine.git", "include": ["lib", "workers", "bin", "server.js"] },
+    { "name": "emailengine", "kind": "app", "url": "https://github.com/postalsys/emailengine.git", "include": ["lib", "workers", "bin", "server.js"] },
     { "name": "imapflow", "url": "https://github.com/postalsys/imapflow.git" },
     { "name": "nodemailer", "url": "https://github.com/nodemailer/nodemailer.git" },
     { "name": "mailparser", "url": "https://github.com/nodemailer/mailparser.git" },

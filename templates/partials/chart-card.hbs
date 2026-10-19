@@ -1,0 +1,12 @@
+{{!--
+    chart-card - a ui/card holding one time-series chart; static/js/charts.js
+    draws into [data-chart] from the page's #chart-data.
+    Params:
+      chart - chart key in charts.js (required)
+      title - card title (required)
+      hint  - one muted line under the title (required)
+--}}
+{{#> ui/card title=title class="mb-0!" bodyClass="pt-0"}}
+<p class="text-base-content/60 -mt-1 mb-2 text-sm">{{hint}}</p>
+<div class="ch-chart" data-chart="{{chart}}"></div>
+{{/ui/card}}

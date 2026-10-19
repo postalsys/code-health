@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 'use strict';
 
-// Local preview of the Pages site: node bin/serve.js [port]
+// Local preview of the built site (npm run build first): node bin/serve.js [port]
 const http = require('node:http');
 const fs = require('node:fs');
 const path = require('node:path');
 
-const ROOT = path.join(__dirname, '..', 'site');
+const ROOT = path.join(__dirname, '..', 'dist');
 const TYPES = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css', '.json': 'application/json' };
 const port = Number(process.argv[2]) || 8080;
 

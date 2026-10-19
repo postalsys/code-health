@@ -14,7 +14,7 @@ const METRICS_VERSION = 1;
 
 const ROOT = path.join(__dirname, '..');
 const CACHE_DIR = path.join(ROOT, '.cache', 'repos');
-const DATA_DIR = path.join(ROOT, 'site', 'data');
+const DATA_DIR = path.join(ROOT, 'data');
 
 function parseArgs(argv) {
     const args = { only: null };

@@ -8,7 +8,7 @@ on:
     push:
         branches: [main]
         paths-ignore:
-            - 'site/data/**'
+            - 'data/**'
 
 permissions:
     contents: write
@@ -44,7 +44,7 @@ jobs:
 
             - name: Commit measurements
               run: |
-                  git add site/data
+                  git add data
                   if git diff --cached --quiet; then
                       echo "No new measurements"
                       exit 0
@@ -54,11 +54,14 @@ jobs:
                   git commit -m 'chore: update measurements'
                   git push
 
+            # Renders the pages with EmailEngine's own admin UI partials and theme
+            - run: npm run build
+
             - uses: actions/configure-pages@v6.0.0
 
             - uses: actions/upload-pages-artifact@v5.0.0
               with:
-                  path: site
+                  path: dist
 
     deploy:
         needs: measure

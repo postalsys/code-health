@@ -1,0 +1,26 @@
+{{#> ui/details summary="How the numbers are made" class="card bg-base-100 shadow-md mb-6"}}
+<div class="space-y-3">
+    <p class="mb-0">
+        Library source only: <code>lib/</code>, <code>src/</code>, <code>workers/</code>, <code>bin/</code> and top-level source files.
+        Tests, examples, tooling, type declarations and generated or minified files are left out.
+    </p>
+    <p class="mb-0">
+        <strong>Source lines</strong> are lines carrying code, with blank lines and comments dropped.
+    </p>
+    <p class="mb-0">
+        <strong>Cyclomatic complexity (CC)</strong> counts the independent paths through a function: 1 plus every <code>if</code>, loop,
+        <code>case</code>, <code>catch</code>, ternary, <code>&amp;&amp;</code> / <code>||</code> / <code>??</code>, optional chain and default
+        parameter. Above 10 a function is commonly considered hard to test, above 20 hard to understand.
+    </p>
+    <p class="mb-0">
+        <strong>Maintainability index (MI)</strong> is computed per function as
+        <code>max(0, (171 - 5.2 ln(Halstead volume) - 0.23 CC - 16.2 ln(lines)) * 100 / 171)</code>, the 0 to 100 scale Visual Studio uses,
+        where below 20 is poor. The repository figure weights each function by its lines. Code outside any function (lookup tables, schemas,
+        declarations) counts toward size only. MI is driven mostly by size, so read it as a trend, not a grade.
+    </p>
+    <p class="mb-0">
+        A move from JavaScript to TypeScript adds type annotations to every function, which raises the Halstead volume and lowers MI without
+        the logic changing. Expect a step at that release.
+    </p>
+</div>
+{{/ui/details}}

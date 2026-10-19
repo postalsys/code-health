@@ -2,7 +2,7 @@
 
 Size, cyclomatic complexity and maintainability index of EmailEngine and the libraries it is built on, measured at every release tag and at the current default branch, charted on GitHub Pages.
 
-A scheduled workflow (`.github/workflows/measure.yml`, Mondays) fetches each repository listed in `repos.json`, measures any release it has not measured yet plus the default branch, commits the numbers to `site/data/` and deploys `site/` to Pages.
+A scheduled workflow (`.github/workflows/measure.yml`, Mondays) fetches each repository listed in `repos.json`, measures any release it has not measured yet plus the default branch, commits the numbers to `data/`, builds the site into `dist/` and deploys it to Pages at https://code-health.emailengine.dev/.
 
 ## Running it locally
 
@@ -10,8 +10,15 @@ A scheduled workflow (`.github/workflows/measure.yml`, Mondays) fetches each rep
 npm install
 npm run measure            # all repositories, only what is new
 npm run measure -- --repo imapflow
+npm run build              # render the site into dist/
 npm run serve              # preview at http://127.0.0.1:8080/
 ```
+
+## The site
+
+The pages use EmailEngine's own admin UI. `npm run build` reads its `ui/*` Handlebars partials, its view helpers (`lib/handlebars-helpers.js`), its Tailwind entry with the brand themes and FlyonUI components, `static/js/ui.js`, the fonts and the logo straight from the emailengine mirror at its default branch, so the site follows the admin UI as it changes. This repository only holds the page templates (`templates/`), the chart script (`src/charts.js`) and a thin Tailwind entry that imports EmailEngine's (`src/site.tailwind.css`).
+
+The Tailwind, FlyonUI, Iconify and Handlebars versions in `devDependencies` have to match EmailEngine's; the build warns when they drift.
 
 Bare mirrors of the measured repositories are kept in `.cache/repos/`. A full backfill of every release takes a couple of minutes.
 

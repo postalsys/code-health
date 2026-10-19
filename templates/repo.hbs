@@ -1,0 +1,100 @@
+{{> ui/breadcrumb parentHref="/" parentLabel="Overview" current=name class="mb-3"}}
+
+{{#> ui/page-header title=name icon="icon-[tabler--package]" subtitle=(concat releaseCount " releases measured. Default branch at " head.shortCommit ", " head.date ", " head.files " files.") class="mb-6"}}
+{{> ui/btn label="View on GitHub" href=url external=true icon="icon-[tabler--brand-github]" variant="neutral" style="soft" size="sm"}}
+{{/ui/page-header}}
+
+<div class="mb-6 grid grid-cols-2 gap-4 lg:grid-cols-4">
+    {{#> ui/stat-card title="Source lines" icon="icon-[tabler--code]" variant="primary"}}
+    <div class="text-xl font-semibold text-base-content">{{stats.sloc}}</div>
+    {{#if stats.slocChange}}<div class="text-base-content/60 text-sm">{{stats.slocChange}} in a year</div>{{/if}}
+    {{/ui/stat-card}}
+    {{#> ui/stat-card title="Maintainability index" icon="icon-[tabler--heart-rate-monitor]" variant="success"}}
+    <div class="text-xl font-semibold text-base-content">{{stats.mi}}</div>
+    {{#if stats.miChange}}<div class="text-base-content/60 text-sm">{{stats.miChange.label}} in a year</div>{{/if}}
+    {{/ui/stat-card}}
+    {{> ui/stat-card title="Mean CC per function" value=stats.ccMean icon="icon-[tabler--git-fork]" variant="info"}}
+    {{#> ui/stat-card title="Functions with CC > 20" icon="icon-[tabler--alert-triangle]" variant="warning"}}
+    <div class="text-xl font-semibold text-base-content">{{stats.ccVeryHigh}}</div>
+    <div class="text-base-content/60 text-sm">of {{stats.functions}}</div>
+    {{/ui/stat-card}}
+</div>
+
+<script type="application/json" id="chart-data">{{{chartJson}}}</script>
+
+<div class="mb-6 grid gap-6 xl:grid-cols-2">
+    {{> chart-card chart="size" title="Size" hint="Lines of code, comments and blank lines left out"}}
+    {{> chart-card chart="mi" title="Maintainability index" hint="Mean over functions, weighted by their lines. Higher is better"}}
+    {{> chart-card chart="cc" title="Cyclomatic complexity per function" hint="Lower is better"}}
+    {{> chart-card chart="share" title="Hard to maintain" hint="Share of functions, and of function code, past the usual limits. Lower is better"}}
+</div>
+
+{{> ui/section-title label="Least maintainable functions now" class="mb-3"}}
+
+<div class="card bg-base-100 shadow-md mb-6">
+    <div class="overflow-x-auto">
+        <table class="table ee-table-stack">
+            <thead>
+                <tr>
+                    <th>Function</th>
+                    <th>Location</th>
+                    <th class="text-end">MI</th>
+                    <th class="text-end">CC</th>
+                    <th class="text-end">Lines</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{#each worst}}
+                <tr>
+                    <td><code>{{name}}</code></td>
+                    <td data-label="Location"><a href="{{href}}" class="link link-animated">{{location}}</a></td>
+                    <td class="md:text-end" data-label="MI">{{mi}}</td>
+                    <td class="md:text-end" data-label="CC">{{cc}}</td>
+                    <td class="md:text-end" data-label="Lines">{{sloc}}</td>
+                </tr>
+                {{/each}}
+            </tbody>
+        </table>
+    </div>
+</div>
+
+{{#> ui/details summary="Every measured release" summarySmall=releaseCount class="card bg-base-100 shadow-md mb-6" bodyClass="px-0 pb-0"}}
+<div class="overflow-x-auto">
+    <table class="table table-sm">
+        <thead>
+            <tr>
+                <th>Release</th>
+                <th>Date</th>
+                <th class="text-end">Files</th>
+                <th class="text-end">Source lines</th>
+                <th class="text-end">Functions</th>
+                <th class="text-end">MI</th>
+                <th class="text-end">Mean CC</th>
+                <th class="text-end">P90 CC</th>
+                <th class="text-end">Max CC</th>
+                <th class="text-end">CC &gt; 10</th>
+                <th class="text-end">CC &gt; 20</th>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each releases}}
+            <tr>
+                <td>{{label}}</td>
+                <td>{{date}}</td>
+                <td class="text-end">{{files}}</td>
+                <td class="text-end">{{sloc}}</td>
+                <td class="text-end">{{functions}}</td>
+                <td class="text-end">{{mi}}</td>
+                <td class="text-end">{{ccMean}}</td>
+                <td class="text-end">{{ccP90}}</td>
+                <td class="text-end">{{ccMax}}</td>
+                <td class="text-end">{{ccHigh}}</td>
+                <td class="text-end">{{ccVeryHigh}}</td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+{{/ui/details}}
+
+{{> method}}
