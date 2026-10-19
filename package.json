@@ -1,0 +1,18 @@
+{
+    "name": "code-health",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Maintainability index, complexity and size of EmailEngine and the libraries it is built on, measured at every release",
+    "license": "MIT",
+    "scripts": {
+        "measure": "node bin/measure.js",
+        "serve": "node bin/serve.js",
+        "test": "node --test test/*-test.js"
+    },
+    "engines": {
+        "node": ">=20.0.0"
+    },
+    "dependencies": {
+        "@babel/parser": "7.29.9"
+    }
+}

@@ -1,0 +1,231 @@
+{
+ "name": "gettext",
+ "url": "https://github.com/postalsys/gettext",
+ "metricsVersion": 1,
+ "snapshots": [
+  {
+   "ref": "v4.0.0",
+   "commit": "534584bfd5ba8aba3d21cd3b0445762cd99b416b",
+   "date": "2024-09-19T12:14:37+03:00",
+   "files": 2,
+   "loc": 2577,
+   "sloc": 2379,
+   "functions": 158,
+   "mi": 73.9,
+   "lowMiShare": 0,
+   "ccMean": 1.87,
+   "ccP90": 5,
+   "ccMax": 12,
+   "ccHigh": 1,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v4.0.1",
+   "commit": "6a37fd7a0d342d3340f546335080342168a14920",
+   "date": "2024-10-15T09:31:42+03:00",
+   "files": 2,
+   "loc": 2551,
+   "sloc": 2364,
+   "functions": 156,
+   "mi": 74.3,
+   "lowMiShare": 0,
+   "ccMean": 1.88,
+   "ccP90": 5,
+   "ccMax": 12,
+   "ccHigh": 1,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v4.1.0",
+   "commit": "b773c3bc8bff7f7f2ec5705d34a211f72028daa0",
+   "date": "2025-06-13T13:56:09+03:00",
+   "files": 2,
+   "loc": 2602,
+   "sloc": 2400,
+   "functions": 166,
+   "mi": 72.2,
+   "lowMiShare": 0,
+   "ccMean": 1.87,
+   "ccP90": 5,
+   "ccMax": 12,
+   "ccHigh": 1,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v4.1.1",
+   "commit": "f41df7517490048ba2832b78827652d11900f071",
+   "date": "2026-01-05T20:59:23+02:00",
+   "files": 2,
+   "loc": 2601,
+   "sloc": 2399,
+   "functions": 166,
+   "mi": 72.2,
+   "lowMiShare": 0,
+   "ccMean": 1.9,
+   "ccP90": 6,
+   "ccMax": 12,
+   "ccHigh": 1,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v4.1.2",
+   "commit": "d2cc9466a765a1d20ad9433079b1447592a32b89",
+   "date": "2026-10-19T16:48:01+03:00",
+   "files": 3,
+   "loc": 2889,
+   "sloc": 2615,
+   "functions": 216,
+   "mi": 67.7,
+   "lowMiShare": 0,
+   "ccMean": 1.93,
+   "ccP90": 5,
+   "ccMax": 14,
+   "ccHigh": 2,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  }
+ ],
+ "head": {
+  "ref": "HEAD",
+  "commit": "4730d5cd5d536fbf8f3f4049d4ed2955cd858a03",
+  "date": "2026-10-19T16:50:51+03:00",
+  "files": 3,
+  "loc": 2889,
+  "sloc": 2615,
+  "functions": 216,
+  "mi": 67.7,
+  "lowMiShare": 0,
+  "ccMean": 1.93,
+  "ccP90": 5,
+  "ccMax": 14,
+  "ccHigh": 2,
+  "ccVeryHigh": 0,
+  "parseErrors": 0
+ },
+ "worst": [
+  {
+   "file": "lib/plural-forms.js",
+   "line": 44,
+   "name": "tokenize",
+   "mi": 42.5,
+   "cc": 14,
+   "sloc": 35
+  },
+  {
+   "file": "lib/plural-forms.js",
+   "line": 195,
+   "name": "parsePluralForms",
+   "mi": 42.8,
+   "cc": 13,
+   "sloc": 36
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 387,
+   "name": "useLocale",
+   "mi": 48,
+   "cc": 6,
+   "sloc": 26
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 183,
+   "name": "addTranslations",
+   "mi": 49.8,
+   "cc": 6,
+   "sloc": 22
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 457,
+   "name": "_ldnpgettext",
+   "mi": 51.3,
+   "cc": 10,
+   "sloc": 17
+  },
+  {
+   "file": "lib/plural-forms.js",
+   "line": 153,
+   "name": "parsePrimary",
+   "mi": 52,
+   "cc": 5,
+   "sloc": 19
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 219,
+   "name": "setLocale",
+   "mi": 53,
+   "cc": 6,
+   "sloc": 17
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 89,
+   "name": "constructor",
+   "mi": 54.2,
+   "cc": 5,
+   "sloc": 16
+  },
+  {
+   "file": "lib/plural-forms.js",
+   "line": 127,
+   "name": "parseBinary",
+   "mi": 56.2,
+   "cc": 4,
+   "sloc": 13
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 249,
+   "name": "setTextDomain",
+   "mi": 56.4,
+   "cc": 4,
+   "sloc": 14
+  },
+  {
+   "file": "lib/plural-forms.js",
+   "line": 113,
+   "name": "parseConditional",
+   "mi": 58.1,
+   "cc": 2,
+   "sloc": 12
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 46,
+   "name": "getCatalogPluralForms",
+   "mi": 58.2,
+   "cc": 5,
+   "sloc": 11
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 157,
+   "name": "warn",
+   "mi": 59.7,
+   "cc": 4,
+   "sloc": 11
+  },
+  {
+   "file": "lib/plural-forms.js",
+   "line": 142,
+   "name": "parseUnary",
+   "mi": 62.2,
+   "cc": 2,
+   "sloc": 9
+  },
+  {
+   "file": "lib/gettext.js",
+   "line": 142,
+   "name": "emit",
+   "mi": 63,
+   "cc": 3,
+   "sloc": 8
+  }
+ ]
+}

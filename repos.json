@@ -1,0 +1,20 @@
+[
+    { "name": "emailengine", "url": "https://github.com/postalsys/emailengine.git", "include": ["lib", "workers", "bin", "server.js"] },
+    { "name": "imapflow", "url": "https://github.com/postalsys/imapflow.git" },
+    { "name": "nodemailer", "url": "https://github.com/nodemailer/nodemailer.git" },
+    { "name": "mailparser", "url": "https://github.com/nodemailer/mailparser.git" },
+    { "name": "smtp-server", "url": "https://github.com/nodemailer/smtp-server.git" },
+    { "name": "libmime", "url": "https://github.com/nodemailer/libmime.git" },
+    { "name": "libqp", "url": "https://github.com/nodemailer/libqp.git" },
+    { "name": "libbase64", "url": "https://github.com/nodemailer/libbase64.git" },
+    { "name": "ioredfour", "url": "https://github.com/nodemailer/ioredfour.git" },
+    { "name": "email-content", "url": "https://github.com/postalsys/email-content.git" },
+    { "name": "email-text-tools", "url": "https://github.com/postalsys/email-text-tools.git" },
+    { "name": "email-ai-tools", "url": "https://github.com/postalsys/email-ai-tools.git" },
+    { "name": "bounce-classifier", "url": "https://github.com/postalsys/bounce-classifier.git" },
+    { "name": "certs", "url": "https://github.com/postalsys/certs.git" },
+    { "name": "templates", "url": "https://github.com/postalsys/templates.git" },
+    { "name": "gettext", "url": "https://github.com/postalsys/gettext.git" },
+    { "name": "joi-messages", "url": "https://github.com/postalsys/joi-messages.git" },
+    { "name": "pubface", "url": "https://github.com/postalsys/pubface.git" }
+]
