@@ -5068,23 +5068,57 @@
    "ccHigh": 77,
    "ccVeryHigh": 17,
    "parseErrors": 0
+  },
+  {
+   "ref": "v10.2.0",
+   "commit": "f656674fe338f7a55f275ca5371458701267cb6d",
+   "date": "2026-10-21T22:03:41+03:00",
+   "files": 37,
+   "loc": 18154,
+   "sloc": 13271,
+   "functions": 792,
+   "mi": 49.1,
+   "lowMiShare": 0,
+   "ccMean": 4.14,
+   "ccP90": 10,
+   "ccMax": 46,
+   "ccHigh": 77,
+   "ccVeryHigh": 17,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v10.2.1",
+   "commit": "8dbff1d5bcc24a86fd120c98eacffba2eccf251c",
+   "date": "2026-10-22T16:42:30+03:00",
+   "files": 37,
+   "loc": 18213,
+   "sloc": 13300,
+   "functions": 793,
+   "mi": 49.1,
+   "lowMiShare": 0,
+   "ccMean": 4.15,
+   "ccP90": 10,
+   "ccMax": 46,
+   "ccHigh": 77,
+   "ccVeryHigh": 18,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "1d36a5e2c9be2a8dc7c9a8f76ce3c5c203489f3f",
-  "date": "2026-10-19T16:50:25+03:00",
-  "files": 36,
-  "loc": 17967,
-  "sloc": 13178,
-  "functions": 781,
+  "commit": "568fdd4c11eb8c54c890e3f3443f92bcae4df1a5",
+  "date": "2026-10-22T19:32:57+03:00",
+  "files": 37,
+  "loc": 18213,
+  "sloc": 13300,
+  "functions": 793,
   "mi": 49.1,
   "lowMiShare": 0,
-  "ccMean": 4.14,
+  "ccMean": 4.15,
   "ccP90": 10,
   "ccMax": 46,
   "ccHigh": 77,
-  "ccVeryHigh": 17,
+  "ccVeryHigh": 18,
   "parseErrors": 0
  },
  "worst": [
@@ -5098,7 +5132,7 @@
   },
   {
    "file": "src/smtp-connection/index.ts",
-   "line": 1933,
+   "line": 1953,
    "name": "_setEnvelope",
    "mi": 26.1,
    "cc": 36,
@@ -5122,11 +5156,19 @@
   },
   {
    "file": "src/smtp-connection/index.ts",
-   "line": 1095,
+   "line": 1102,
    "name": "login",
    "mi": 27.7,
    "cc": 29,
    "sloc": 92
+  },
+  {
+   "file": "src/mime-funcs/index.ts",
+   "line": 514,
+   "name": "parseHeaderValue",
+   "mi": 29,
+   "cc": 31,
+   "sloc": 89
   },
   {
    "file": "src/mime-funcs/index.ts",
@@ -5146,9 +5188,9 @@
   },
   {
    "file": "src/mime-node/index.ts",
-   "line": 881,
+   "line": 889,
    "name": "<anonymous>",
-   "mi": 30.5,
+   "mi": 30.4,
    "cc": 29,
    "sloc": 74
   },
@@ -5177,14 +5219,6 @@
    "sloc": 65
   },
   {
-   "file": "src/mime-funcs/index.ts",
-   "line": 477,
-   "name": "parseHeaderValue",
-   "mi": 32.6,
-   "cc": 20,
-   "sloc": 77
-  },
-  {
    "file": "src/sendmail-transport/index.ts",
    "line": 105,
    "name": "send",
@@ -5193,20 +5227,20 @@
    "sloc": 75
   },
   {
+   "file": "src/mail-composer/index.ts",
+   "line": 303,
+   "name": "<anonymous>",
+   "mi": 33.3,
+   "cc": 30,
+   "sloc": 59
+  },
+  {
    "file": "src/fetch/index.ts",
    "line": 364,
    "name": "<anonymous>",
    "mi": 33.3,
    "cc": 21,
    "sloc": 64
-  },
-  {
-   "file": "src/mail-composer/index.ts",
-   "line": 271,
-   "name": "<anonymous>",
-   "mi": 33.6,
-   "cc": 28,
-   "sloc": 59
   }
  ]
 }

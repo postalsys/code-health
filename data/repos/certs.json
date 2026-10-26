@@ -580,14 +580,48 @@
    "ccHigh": 8,
    "ccVeryHigh": 0,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.0.1",
+   "commit": "a250c08f9c3d635538d2eaeef3b4a14bc00080b4",
+   "date": "2026-10-21T21:48:56+03:00",
+   "files": 10,
+   "loc": 2832,
+   "sloc": 2031,
+   "functions": 158,
+   "mi": 50.8,
+   "lowMiShare": 0,
+   "ccMean": 3.72,
+   "ccP90": 9,
+   "ccMax": 19,
+   "ccHigh": 8,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v2.0.2",
+   "commit": "a7cfd3b3a82cba0f812936e896d4aa84b1410fc9",
+   "date": "2026-10-22T18:22:01+03:00",
+   "files": 10,
+   "loc": 2832,
+   "sloc": 2031,
+   "functions": 158,
+   "mi": 50.8,
+   "lowMiShare": 0,
+   "ccMean": 3.72,
+   "ccP90": 9,
+   "ccMax": 19,
+   "ccHigh": 8,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "2c32559ad037343a0fe14746fb78ae4497897255",
-  "date": "2026-10-19T19:29:53+03:00",
+  "commit": "75dcc14b821fb0d67c0ec6d30513a314a6c1dafe",
+  "date": "2026-10-22T19:06:07+03:00",
   "files": 10,
-  "loc": 2824,
+  "loc": 2832,
   "sloc": 2031,
   "functions": 158,
   "mi": 50.8,
@@ -610,9 +644,9 @@
   },
   {
    "file": "src/certs.ts",
-   "line": 627,
+   "line": 634,
    "name": "acquireCert",
-   "mi": 35.2,
+   "mi": 35.1,
    "cc": 15,
    "sloc": 55
   },
@@ -626,7 +660,7 @@
   },
   {
    "file": "src/certs.ts",
-   "line": 736,
+   "line": 743,
    "name": "orderCert",
    "mi": 37,
    "cc": 10,
@@ -634,7 +668,7 @@
   },
   {
    "file": "src/certs.ts",
-   "line": 277,
+   "line": 284,
    "name": "constructor",
    "mi": 37.9,
    "cc": 13,
@@ -650,7 +684,7 @@
   },
   {
    "file": "src/certs.ts",
-   "line": 844,
+   "line": 851,
    "name": "routeHandler",
    "mi": 41.8,
    "cc": 5,
@@ -658,7 +692,7 @@
   },
   {
    "file": "src/certs.ts",
-   "line": 485,
+   "line": 492,
    "name": "validateDomain",
    "mi": 41.9,
    "cc": 10,
@@ -682,7 +716,7 @@
   },
   {
    "file": "src/certs.ts",
-   "line": 566,
+   "line": 573,
    "name": "setCertificateData",
    "mi": 43.3,
    "cc": 10,
@@ -690,7 +724,7 @@
   },
   {
    "file": "src/certs.ts",
-   "line": 386,
+   "line": 393,
    "name": "getAcmeAccount",
    "mi": 43.7,
    "cc": 3,

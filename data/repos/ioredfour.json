@@ -138,29 +138,63 @@
    "ccHigh": 1,
    "ccVeryHigh": 0,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.1.0",
+   "commit": "73ebc06b9b76c862d3050b6e45bef7c6c30f3dfa",
+   "date": "2026-10-21T21:49:01+03:00",
+   "files": 2,
+   "loc": 749,
+   "sloc": 544,
+   "functions": 64,
+   "mi": 56.9,
+   "lowMiShare": 0,
+   "ccMean": 2.25,
+   "ccP90": 4,
+   "ccMax": 17,
+   "ccHigh": 1,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v2.2.0",
+   "commit": "508266dcdbf28079bf91bd0985afb745dfd09e16",
+   "date": "2026-10-21T23:54:51+03:00",
+   "files": 2,
+   "loc": 755,
+   "sloc": 545,
+   "functions": 64,
+   "mi": 56.9,
+   "lowMiShare": 0,
+   "ccMean": 2.28,
+   "ccP90": 4,
+   "ccMax": 17,
+   "ccHigh": 2,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "1a1d83a1d80d4d24d6151fc5f74a00447b83675b",
-  "date": "2026-10-19T17:45:45+03:00",
+  "commit": "e53a3fda3984b7275ec144dd064fa9bae4ad3ebe",
+  "date": "2026-10-22T18:18:45+03:00",
   "files": 2,
-  "loc": 616,
-  "sloc": 451,
-  "functions": 55,
+  "loc": 755,
+  "sloc": 545,
+  "functions": 64,
   "mi": 56.9,
   "lowMiShare": 0,
-  "ccMean": 2.25,
+  "ccMean": 2.28,
   "ccP90": 4,
   "ccMax": 17,
-  "ccHigh": 1,
+  "ccHigh": 2,
   "ccVeryHigh": 0,
   "parseErrors": 0
  },
  "worst": [
   {
    "file": "src/ioredfour.ts",
-   "line": 150,
+   "line": 209,
    "name": "constructor",
    "mi": 32.2,
    "cc": 17,
@@ -168,7 +202,15 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 391,
+   "line": 704,
+   "name": "withLock",
+   "mi": 44.1,
+   "cc": 11,
+   "sloc": 30
+  },
+  {
+   "file": "src/ioredfour.ts",
+   "line": 450,
    "name": "acquireLock",
    "mi": 45.8,
    "cc": 6,
@@ -176,7 +218,7 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 341,
+   "line": 400,
    "name": "_resolveClusterConfig",
    "mi": 50.4,
    "cc": 10,
@@ -184,7 +226,7 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 443,
+   "line": 502,
    "name": "<anonymous>",
    "mi": 52.9,
    "cc": 6,
@@ -192,7 +234,7 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 428,
+   "line": 487,
    "name": "attempt",
    "mi": 53.4,
    "cc": 2,
@@ -200,7 +242,7 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 559,
+   "line": 618,
    "name": "<anonymous>",
    "mi": 54.6,
    "cc": 3,
@@ -208,7 +250,7 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 517,
+   "line": 576,
    "name": "extendLock",
    "mi": 55.4,
    "cc": 4,
@@ -216,7 +258,23 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 574,
+   "line": 738,
+   "name": "_autoExtend",
+   "mi": 55.7,
+   "cc": 1,
+   "sloc": 14
+  },
+  {
+   "file": "src/ioredfour.ts",
+   "line": 129,
+   "name": "constructor",
+   "mi": 56.3,
+   "cc": 2,
+   "sloc": 13
+  },
+  {
+   "file": "src/ioredfour.ts",
+   "line": 633,
    "name": "<anonymous>",
    "mi": 56.4,
    "cc": 4,
@@ -232,7 +290,7 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 549,
+   "line": 608,
    "name": "waitAcquireLock",
    "mi": 58.6,
    "cc": 2,
@@ -240,7 +298,7 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 491,
+   "line": 550,
    "name": "releaseLock",
    "mi": 59.4,
    "cc": 3,
@@ -248,35 +306,11 @@
   },
   {
    "file": "src/ioredfour.ts",
-   "line": 313,
+   "line": 372,
    "name": "close",
    "mi": 61.2,
    "cc": 2,
    "sloc": 10
-  },
-  {
-   "file": "src/ioredfour.ts",
-   "line": 569,
-   "name": "tryAcquire",
-   "mi": 62.1,
-   "cc": 1,
-   "sloc": 10
-  },
-  {
-   "file": "src/scripts.ts",
-   "line": 20,
-   "name": "acquireScript",
-   "mi": 62.1,
-   "cc": 1,
-   "sloc": 16
-  },
-  {
-   "file": "src/ioredfour.ts",
-   "line": 321,
-   "name": "<anonymous>",
-   "mi": 63.2,
-   "cc": 2,
-   "sloc": 9
   }
  ]
 }

@@ -1787,17 +1787,51 @@
    "ccHigh": 17,
    "ccVeryHigh": 6,
    "parseErrors": 0
+  },
+  {
+   "ref": "v3.21.0",
+   "commit": "1f65d70501837efeb9af6fd06adb1c854e406a32",
+   "date": "2026-10-21T21:48:53+03:00",
+   "files": 6,
+   "loc": 4609,
+   "sloc": 3288,
+   "functions": 211,
+   "mi": 46.6,
+   "lowMiShare": 0,
+   "ccMean": 4.15,
+   "ccP90": 8,
+   "ccMax": 43,
+   "ccHigh": 17,
+   "ccVeryHigh": 6,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v3.21.1",
+   "commit": "4363ca41f6702ba3443c1042b4171b81368671db",
+   "date": "2026-10-22T18:23:16+03:00",
+   "files": 6,
+   "loc": 4609,
+   "sloc": 3288,
+   "functions": 211,
+   "mi": 46.6,
+   "lowMiShare": 0,
+   "ccMean": 4.15,
+   "ccP90": 8,
+   "ccMax": 43,
+   "ccHigh": 17,
+   "ccVeryHigh": 6,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "ddef9ccd129236f5f8bc17830d7ca3b1318dec8a",
-  "date": "2026-10-19T16:50:28+03:00",
+  "commit": "4363ca41f6702ba3443c1042b4171b81368671db",
+  "date": "2026-10-22T18:23:16+03:00",
   "files": 6,
-  "loc": 4549,
-  "sloc": 3259,
-  "functions": 208,
-  "mi": 46.7,
+  "loc": 4609,
+  "sloc": 3288,
+  "functions": 211,
+  "mi": 46.6,
   "lowMiShare": 0,
   "ccMean": 4.15,
   "ccP90": 8,
@@ -1809,7 +1843,7 @@
  "worst": [
   {
    "file": "src/smtp-connection.ts",
-   "line": 1390,
+   "line": 1419,
    "name": "_parseAddressCommand",
    "mi": 23,
    "cc": 43,
@@ -1825,7 +1859,7 @@
   },
   {
    "file": "src/smtp-connection.ts",
-   "line": 1851,
+   "line": 1880,
    "name": "handler_XCLIENT",
    "mi": 27.4,
    "cc": 27,
@@ -1833,7 +1867,7 @@
   },
   {
    "file": "src/smtp-connection.ts",
-   "line": 2024,
+   "line": 2053,
    "name": "handler_XFORWARD",
    "mi": 27.6,
    "cc": 24,
@@ -1849,11 +1883,19 @@
   },
   {
    "file": "src/smtp-connection.ts",
-   "line": 2203,
+   "line": 2232,
    "name": "_validateMailParams",
    "mi": 34.5,
    "cc": 19,
    "sloc": 67
+  },
+  {
+   "file": "src/smtp-connection.ts",
+   "line": 2508,
+   "name": "close",
+   "mi": 34.9,
+   "cc": 19,
+   "sloc": 57
   },
   {
    "file": "src/smtp-server.ts",
@@ -1865,7 +1907,7 @@
   },
   {
    "file": "src/smtp-connection.ts",
-   "line": 2367,
+   "line": 2396,
    "name": "handler_RCPT",
    "mi": 36.2,
    "cc": 21,
@@ -1881,7 +1923,7 @@
   },
   {
    "file": "src/smtp-connection.ts",
-   "line": 1697,
+   "line": 1726,
    "name": "handler_EHLO",
    "mi": 38.5,
    "cc": 19,
@@ -1894,14 +1936,6 @@
    "mi": 38.9,
    "cc": 4,
    "sloc": 60
-  },
-  {
-   "file": "src/smtp-connection.ts",
-   "line": 2479,
-   "name": "close",
-   "mi": 39.5,
-   "cc": 16,
-   "sloc": 41
   },
   {
    "file": "src/sasl.ts",

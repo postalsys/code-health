@@ -189,17 +189,34 @@
    "ccHigh": 1,
    "ccVeryHigh": 0,
    "parseErrors": 0
+  },
+  {
+   "ref": "v3.1.0",
+   "commit": "6698c885c5bec5915ab80a09b0f34997f856a198",
+   "date": "2026-10-19T23:35:38+03:00",
+   "files": 2,
+   "loc": 1118,
+   "sloc": 791,
+   "functions": 51,
+   "mi": 53.9,
+   "lowMiShare": 0,
+   "ccMean": 3.27,
+   "ccP90": 8,
+   "ccMax": 14,
+   "ccHigh": 1,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "59ebd6426ead776d036edc3c1db21bc2bc33bb83",
-  "date": "2026-10-19T16:50:39+03:00",
+  "commit": "191a25f745301481137eb2094f7c2cf54af91651",
+  "date": "2026-10-22T18:18:31+03:00",
   "files": 2,
-  "loc": 993,
-  "sloc": 735,
+  "loc": 1118,
+  "sloc": 791,
   "functions": 51,
-  "mi": 53.7,
+  "mi": 53.9,
   "lowMiShare": 0,
   "ccMean": 3.27,
   "ccP90": 8,
@@ -210,124 +227,124 @@
  },
  "worst": [
   {
-   "file": "src/index.js",
-   "line": 855,
+   "file": "src/index.ts",
+   "line": 1044,
    "name": "classify",
-   "mi": 37.8,
+   "mi": 37.1,
    "cc": 14,
-   "sloc": 51
+   "sloc": 52
   },
   {
-   "file": "src/index.js",
-   "line": 586,
-   "name": "loadWeightsWithProgress",
-   "mi": 42.7,
-   "cc": 10,
-   "sloc": 34
-  },
-  {
-   "file": "src/index.js",
-   "line": 798,
+   "file": "src/index.ts",
+   "line": 986,
    "name": "<anonymous>",
-   "mi": 43.6,
+   "mi": 42.8,
    "cc": 7,
-   "sloc": 35
+   "sloc": 36
   },
   {
-   "file": "src/index.js",
-   "line": 699,
+   "file": "src/index.ts",
+   "line": 784,
+   "name": "loadWeightsWithProgress",
+   "mi": 43.2,
+   "cc": 10,
+   "sloc": 32
+  },
+  {
+   "file": "src/index.ts",
+   "line": 895,
    "name": "forward",
-   "mi": 44.6,
+   "mi": 44.4,
    "cc": 8,
    "sloc": 30
   },
   {
-   "file": "build.js",
-   "line": 8,
-   "name": "main",
-   "mi": 47.5,
-   "cc": 1,
-   "sloc": 31
-  },
-  {
-   "file": "src/index.js",
-   "line": 633,
+   "file": "src/index.ts",
+   "line": 829,
    "name": "parseWeights",
-   "mi": 50.5,
+   "mi": 50.3,
    "cc": 1,
    "sloc": 23
   },
   {
-   "file": "src/index.js",
-   "line": 429,
+   "file": "src/index.ts",
+   "line": 600,
    "name": "identifyBlocklist",
-   "mi": 50.8,
+   "mi": 50.5,
    "cc": 8,
    "sloc": 19
   },
   {
-   "file": "src/index.js",
-   "line": 779,
+   "file": "src/index.ts",
+   "line": 1129,
+   "name": "classifyBatch",
+   "mi": 51.5,
+   "cc": 4,
+   "sloc": 18
+  },
+  {
+   "file": "src/index.ts",
+   "line": 967,
    "name": "initialize",
-   "mi": 52.2,
+   "mi": 51.9,
    "cc": 8,
    "sloc": 18
   },
   {
-   "file": "src/index.js",
-   "line": 677,
+   "file": "src/index.ts",
+   "line": 873,
    "name": "softmax",
-   "mi": 52.6,
+   "mi": 52.5,
    "cc": 5,
    "sloc": 17
   },
   {
-   "file": "src/index.js",
-   "line": 939,
-   "name": "classifyBatch",
-   "mi": 52.9,
-   "cc": 4,
-   "sloc": 17
-  },
-  {
-   "file": "src/index.js",
-   "line": 549,
-   "name": "loadModelFile",
-   "mi": 53.7,
-   "cc": 4,
-   "sloc": 16
-  },
-  {
-   "file": "src/index.js",
-   "line": 462,
+   "file": "src/index.ts",
+   "line": 632,
    "name": "sanitizeMessage",
-   "mi": 54,
+   "mi": 53.9,
    "cc": 7,
    "sloc": 15
   },
   {
-   "file": "src/index.js",
-   "line": 527,
-   "name": "tokenize",
-   "mi": 55.3,
-   "cc": 3,
+   "file": "src/index.ts",
+   "line": 749,
+   "name": "loadModelFile",
+   "mi": 54.9,
+   "cc": 4,
    "sloc": 14
   },
   {
-   "file": "src/index.js",
-   "line": 275,
+   "file": "src/index.ts",
+   "line": 441,
    "name": "registerTextFallback",
-   "mi": 56.4,
+   "mi": 56.2,
    "cc": 6,
    "sloc": 13
   },
   {
-   "file": "src/index.js",
-   "line": 748,
-   "name": "getDefaultModelPath",
-   "mi": 56.6,
+   "file": "src/index.ts",
+   "line": 583,
+   "name": "extractRetryTiming",
+   "mi": 57.1,
+   "cc": 7,
+   "sloc": 12
+  },
+  {
+   "file": "src/index.ts",
+   "line": 253,
+   "name": "vendorBlocklistEntries",
+   "mi": 57.7,
+   "cc": 2,
+   "sloc": 12
+  },
+  {
+   "file": "src/index.ts",
+   "line": 724,
+   "name": "tokenize",
+   "mi": 59.5,
    "cc": 3,
-   "sloc": 14
+   "sloc": 9
   }
  ]
 }

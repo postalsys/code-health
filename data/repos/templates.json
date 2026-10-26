@@ -223,145 +223,179 @@
    "ccHigh": 1,
    "ccVeryHigh": 0,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.1.0",
+   "commit": "e90d1dc95ecdc6b34e155c6d03cfbd132e306f22",
+   "date": "2026-10-19T23:06:26+03:00",
+   "files": 1,
+   "loc": 252,
+   "sloc": 209,
+   "functions": 24,
+   "mi": 58.4,
+   "lowMiShare": 0,
+   "ccMean": 3.38,
+   "ccP90": 7,
+   "ccMax": 16,
+   "ccHigh": 1,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v2.1.1",
+   "commit": "45e51076904e102aac2ee992a269173ae45a31aa",
+   "date": "2026-10-20T07:44:31+03:00",
+   "files": 2,
+   "loc": 840,
+   "sloc": 739,
+   "functions": 130,
+   "mi": 58.8,
+   "lowMiShare": 0,
+   "ccMean": 2.5,
+   "ccP90": 5,
+   "ccMax": 30,
+   "ccHigh": 5,
+   "ccVeryHigh": 1,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "16f837432250d0b93ea855872ab3beb7edeb1e45",
-  "date": "2026-10-19T16:50:54+03:00",
-  "files": 1,
-  "loc": 220,
-  "sloc": 193,
-  "functions": 25,
-  "mi": 59.2,
+  "commit": "8aa359ade687c8c74abfffafb8d98f87790e6f2a",
+  "date": "2026-10-22T18:18:42+03:00",
+  "files": 2,
+  "loc": 840,
+  "sloc": 739,
+  "functions": 130,
+  "mi": 58.8,
   "lowMiShare": 0,
-  "ccMean": 3.16,
-  "ccP90": 7,
-  "ccMax": 14,
-  "ccHigh": 1,
-  "ccVeryHigh": 0,
+  "ccMean": 2.5,
+  "ccP90": 5,
+  "ccMax": 30,
+  "ccHigh": 5,
+  "ccVeryHigh": 1,
   "parseErrors": 0
  },
  "worst": [
   {
-   "file": "lib/templates.js",
-   "line": 215,
-   "name": "getTemplate",
-   "mi": 45.4,
+   "file": "src/format-date.ts",
+   "line": 258,
+   "name": "timeFromFields",
+   "mi": 37.2,
+   "cc": 30,
+   "sloc": 43
+  },
+  {
+   "file": "src/format-date.ts",
+   "line": 371,
+   "name": "parseRfc2822",
+   "mi": 40.5,
+   "cc": 16,
+   "sloc": 36
+  },
+  {
+   "file": "src/format-date.ts",
+   "line": 214,
+   "name": "setField",
+   "mi": 41.5,
    "cc": 14,
+   "sloc": 41
+  },
+  {
+   "file": "src/templates.ts",
+   "line": 224,
+   "name": "getTemplate",
+   "mi": 44.6,
+   "cc": 16,
    "sloc": 30
   },
   {
-   "file": "lib/templates.js",
-   "line": 49,
+   "file": "src/format-date.ts",
+   "line": 328,
+   "name": "parseIso",
+   "mi": 47.1,
+   "cc": 10,
+   "sloc": 26
+  },
+  {
+   "file": "src/format-date.ts",
+   "line": 418,
+   "name": "parseDate",
+   "mi": 47.6,
+   "cc": 13,
+   "sloc": 22
+  },
+  {
+   "file": "src/format-date.ts",
+   "line": 644,
+   "name": "formatDate",
+   "mi": 48.7,
+   "cc": 10,
+   "sloc": 21
+  },
+  {
+   "file": "src/templates.ts",
+   "line": 47,
    "name": "<anonymous>",
-   "mi": 50.4,
+   "mi": 50.1,
    "cc": 7,
    "sloc": 22
   },
   {
-   "file": "lib/templates.js",
-   "line": 9,
-   "name": "parseDate",
-   "mi": 51.8,
-   "cc": 8,
-   "sloc": 17
+   "file": "src/format-date.ts",
+   "line": 313,
+   "name": "parseFormat",
+   "mi": 54.2,
+   "cc": 6,
+   "sloc": 14
   },
   {
-   "file": "lib/templates.js",
-   "line": 29,
-   "name": "<anonymous>",
-   "mi": 57.1,
-   "cc": 6,
+   "file": "src/format-date.ts",
+   "line": 136,
+   "name": "offsetFromString",
+   "mi": 55,
+   "cc": 8,
    "sloc": 12
   },
   {
-   "file": "lib/templates.js",
+   "file": "src/format-date.ts",
+   "line": 478,
+   "name": "constructor",
+   "mi": 55.7,
+   "cc": 2,
+   "sloc": 13
+  },
+  {
+   "file": "src/format-date.ts",
+   "line": 123,
+   "name": "dayOfYearFromWeeks",
+   "mi": 57.1,
+   "cc": 3,
+   "sloc": 11
+  },
+  {
+   "file": "src/format-date.ts",
+   "line": 88,
+   "name": "utcTime",
+   "mi": 57.5,
+   "cc": 8,
+   "sloc": 10
+  },
+  {
+   "file": "src/templates.ts",
    "line": 113,
    "name": "<anonymous>",
-   "mi": 58.6,
+   "mi": 57.8,
    "cc": 4,
    "sloc": 12
   },
   {
-   "file": "lib/templates.js",
-   "line": 173,
-   "name": "isSafeUrl",
-   "mi": 61,
+   "file": "src/format-date.ts",
+   "line": 112,
+   "name": "weekOfYear",
+   "mi": 58.1,
    "cc": 3,
-   "sloc": 9
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 129,
-   "name": "<anonymous>",
-   "mi": 62.6,
-   "cc": 3,
-   "sloc": 9
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 77,
-   "name": "<anonymous>",
-   "mi": 63,
-   "cc": 4,
-   "sloc": 8
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 87,
-   "name": "<anonymous>",
-   "mi": 63,
-   "cc": 4,
-   "sloc": 8
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 146,
-   "name": "escapeMarkdown",
-   "mi": 66.3,
-   "cc": 3,
-   "sloc": 6
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 188,
-   "name": "link",
-   "mi": 67.5,
-   "cc": 2,
-   "sloc": 6
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 194,
-   "name": "image",
-   "mi": 67.5,
-   "cc": 2,
-   "sloc": 6
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 97,
-   "name": "<anonymous>",
-   "mi": 67.8,
-   "cc": 2,
-   "sloc": 6
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 105,
-   "name": "<anonymous>",
-   "mi": 67.8,
-   "cc": 2,
-   "sloc": 6
-  },
-  {
-   "file": "lib/templates.js",
-   "line": 232,
-   "name": "<anonymous>",
-   "mi": 70.9,
-   "cc": 1,
-   "sloc": 5
+   "sloc": 10
   }
  ]
 }

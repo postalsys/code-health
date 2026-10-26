@@ -87,145 +87,179 @@
    "ccHigh": 2,
    "ccVeryHigh": 0,
    "parseErrors": 0
+  },
+  {
+   "ref": "v4.2.0",
+   "commit": "c0e776dfd4cde9cbc7b5ccd4039d2f0d12c587d1",
+   "date": "2026-10-19T23:06:30+03:00",
+   "files": 3,
+   "loc": 2975,
+   "sloc": 2679,
+   "functions": 216,
+   "mi": 67.4,
+   "lowMiShare": 0,
+   "ccMean": 1.93,
+   "ccP90": 5,
+   "ccMax": 14,
+   "ccHigh": 2,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v4.3.0",
+   "commit": "67e08db153d6cf2dbcf66aa528af29afb1232b2d",
+   "date": "2026-10-19T23:35:51+03:00",
+   "files": 4,
+   "loc": 3170,
+   "sloc": 2832,
+   "functions": 230,
+   "mi": 64,
+   "lowMiShare": 0,
+   "ccMean": 1.99,
+   "ccP90": 5,
+   "ccMax": 14,
+   "ccHigh": 3,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "4730d5cd5d536fbf8f3f4049d4ed2955cd858a03",
-  "date": "2026-10-19T16:50:51+03:00",
-  "files": 3,
-  "loc": 2889,
-  "sloc": 2615,
-  "functions": 216,
-  "mi": 67.7,
+  "commit": "8f4f331a57e08961f4eae17589f8520e4a1f1bcf",
+  "date": "2026-10-22T18:18:37+03:00",
+  "files": 4,
+  "loc": 3170,
+  "sloc": 2832,
+  "functions": 230,
+  "mi": 64,
   "lowMiShare": 0,
-  "ccMean": 1.93,
+  "ccMean": 1.99,
   "ccP90": 5,
   "ccMax": 14,
-  "ccHigh": 2,
+  "ccHigh": 3,
   "ccVeryHigh": 0,
   "parseErrors": 0
  },
  "worst": [
   {
-   "file": "lib/plural-forms.js",
-   "line": 44,
+   "file": "src/mo.ts",
+   "line": 126,
+   "name": "parseMo",
+   "mi": 35.2,
+   "cc": 13,
+   "sloc": 59
+  },
+  {
+   "file": "src/plural-forms.ts",
+   "line": 206,
+   "name": "parsePluralForms",
+   "mi": 41.9,
+   "cc": 14,
+   "sloc": 37
+  },
+  {
+   "file": "src/plural-forms.ts",
+   "line": 52,
    "name": "tokenize",
-   "mi": 42.5,
+   "mi": 42.3,
    "cc": 14,
    "sloc": 35
   },
   {
-   "file": "lib/plural-forms.js",
-   "line": 195,
-   "name": "parsePluralForms",
-   "mi": 42.8,
-   "cc": 13,
-   "sloc": 36
-  },
-  {
-   "file": "lib/gettext.js",
-   "line": 387,
+   "file": "src/gettext.ts",
+   "line": 462,
    "name": "useLocale",
-   "mi": 48,
+   "mi": 48.7,
    "cc": 6,
-   "sloc": 26
+   "sloc": 24
   },
   {
-   "file": "lib/gettext.js",
-   "line": 183,
+   "file": "src/gettext.ts",
+   "line": 258,
    "name": "addTranslations",
-   "mi": 49.8,
+   "mi": 49.6,
    "cc": 6,
    "sloc": 22
   },
   {
-   "file": "lib/gettext.js",
-   "line": 457,
+   "file": "src/gettext.ts",
+   "line": 531,
    "name": "_ldnpgettext",
-   "mi": 51.3,
+   "mi": 51,
    "cc": 10,
    "sloc": 17
   },
   {
-   "file": "lib/plural-forms.js",
-   "line": 153,
+   "file": "src/mo.ts",
+   "line": 74,
+   "name": "getDecoder",
+   "mi": 51.7,
+   "cc": 7,
+   "sloc": 21
+  },
+  {
+   "file": "src/plural-forms.ts",
+   "line": 164,
    "name": "parsePrimary",
-   "mi": 52,
+   "mi": 51.9,
    "cc": 5,
    "sloc": 19
   },
   {
-   "file": "lib/gettext.js",
-   "line": 219,
+   "file": "src/gettext.ts",
+   "line": 294,
    "name": "setLocale",
-   "mi": 53,
+   "mi": 52.8,
    "cc": 6,
    "sloc": 17
   },
   {
-   "file": "lib/gettext.js",
-   "line": 89,
+   "file": "src/gettext.ts",
+   "line": 162,
    "name": "constructor",
-   "mi": 54.2,
+   "mi": 53.9,
    "cc": 5,
    "sloc": 16
   },
   {
-   "file": "lib/plural-forms.js",
-   "line": 127,
+   "file": "src/plural-forms.ts",
+   "line": 138,
    "name": "parseBinary",
-   "mi": 56.2,
+   "mi": 56,
    "cc": 4,
    "sloc": 13
   },
   {
-   "file": "lib/gettext.js",
-   "line": 249,
+   "file": "src/gettext.ts",
+   "line": 324,
    "name": "setTextDomain",
-   "mi": 56.4,
+   "mi": 56.1,
    "cc": 4,
    "sloc": 14
   },
   {
-   "file": "lib/plural-forms.js",
-   "line": 113,
-   "name": "parseConditional",
-   "mi": 58.1,
-   "cc": 2,
-   "sloc": 12
-  },
-  {
-   "file": "lib/gettext.js",
-   "line": 46,
-   "name": "getCatalogPluralForms",
-   "mi": 58.2,
+   "file": "src/mo.ts",
+   "line": 98,
+   "name": "parseHeader",
+   "mi": 57.4,
    "cc": 5,
    "sloc": 11
   },
   {
-   "file": "lib/gettext.js",
-   "line": 157,
-   "name": "warn",
-   "mi": 59.7,
-   "cc": 4,
+   "file": "src/gettext.ts",
+   "line": 104,
+   "name": "getCatalogPluralForms",
+   "mi": 57.9,
+   "cc": 5,
    "sloc": 11
   },
   {
-   "file": "lib/plural-forms.js",
-   "line": 142,
-   "name": "parseUnary",
-   "mi": 62.2,
+   "file": "src/plural-forms.ts",
+   "line": 124,
+   "name": "parseConditional",
+   "mi": 57.9,
    "cc": 2,
-   "sloc": 9
-  },
-  {
-   "file": "lib/gettext.js",
-   "line": 142,
-   "name": "emit",
-   "mi": 63,
-   "cc": 3,
-   "sloc": 8
+   "sloc": 12
   }
  ]
 }
