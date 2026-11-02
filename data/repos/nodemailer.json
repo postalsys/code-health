@@ -5102,19 +5102,53 @@
    "ccHigh": 77,
    "ccVeryHigh": 18,
    "parseErrors": 0
+  },
+  {
+   "ref": "v10.3.0",
+   "commit": "5de343d02ad998fb2c4f40e17342ab3c8ec7006e",
+   "date": "2026-10-29T08:09:48+02:00",
+   "files": 37,
+   "loc": 18293,
+   "sloc": 13348,
+   "functions": 796,
+   "mi": 49.1,
+   "lowMiShare": 0,
+   "ccMean": 4.16,
+   "ccP90": 10,
+   "ccMax": 46,
+   "ccHigh": 77,
+   "ccVeryHigh": 18,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v10.3.1",
+   "commit": "26555d0c43f334e20fff87e817b39d1b9b54d463",
+   "date": "2026-10-29T14:29:31+02:00",
+   "files": 37,
+   "loc": 18292,
+   "sloc": 13347,
+   "functions": 796,
+   "mi": 49.1,
+   "lowMiShare": 0,
+   "ccMean": 4.16,
+   "ccP90": 10,
+   "ccMax": 46,
+   "ccHigh": 77,
+   "ccVeryHigh": 18,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "568fdd4c11eb8c54c890e3f3443f92bcae4df1a5",
-  "date": "2026-10-22T19:32:57+03:00",
+  "commit": "d3aa27ef766358623314a1792d73246f9ab97efb",
+  "date": "2026-10-29T16:01:26+02:00",
   "files": 37,
-  "loc": 18213,
-  "sloc": 13300,
-  "functions": 793,
+  "loc": 18292,
+  "sloc": 13347,
+  "functions": 796,
   "mi": 49.1,
   "lowMiShare": 0,
-  "ccMean": 4.15,
+  "ccMean": 4.16,
   "ccP90": 10,
   "ccMax": 46,
   "ccHigh": 77,
@@ -5219,6 +5253,14 @@
    "sloc": 65
   },
   {
+   "file": "src/mime-node/index.ts",
+   "line": 1712,
+   "name": "encodeHeaderValue",
+   "mi": 32.8,
+   "cc": 29,
+   "sloc": 63
+  },
+  {
    "file": "src/sendmail-transport/index.ts",
    "line": 105,
    "name": "send",
@@ -5228,19 +5270,11 @@
   },
   {
    "file": "src/mail-composer/index.ts",
-   "line": 303,
+   "line": 323,
    "name": "<anonymous>",
    "mi": 33.3,
    "cc": 30,
    "sloc": 59
-  },
-  {
-   "file": "src/fetch/index.ts",
-   "line": 364,
-   "name": "<anonymous>",
-   "mi": 33.3,
-   "cc": 21,
-   "sloc": 64
   }
  ]
 }

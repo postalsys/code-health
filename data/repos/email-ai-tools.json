@@ -1821,22 +1821,39 @@
    "ccHigh": 7,
    "ccVeryHigh": 4,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.4.0",
+   "commit": "249fa5194e3221e8c8f9cf21973435309d539dc1",
+   "date": "2026-10-29T14:47:41+02:00",
+   "files": 9,
+   "loc": 1872,
+   "sloc": 1483,
+   "functions": 108,
+   "mi": 47.9,
+   "lowMiShare": 0,
+   "ccMean": 4.46,
+   "ccP90": 8,
+   "ccMax": 40,
+   "ccHigh": 8,
+   "ccVeryHigh": 4,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "b342b3b511cc9dbbd579de7d8d2064d3315788d8",
-  "date": "2026-10-22T20:43:03+03:00",
+  "commit": "89802f4947e9d186832e4fa9de4278c81255f409",
+  "date": "2026-10-29T16:07:28+02:00",
   "files": 9,
-  "loc": 1864,
-  "sloc": 1476,
+  "loc": 1872,
+  "sloc": 1483,
   "functions": 108,
-  "mi": 48,
+  "mi": 47.9,
   "lowMiShare": 0,
-  "ccMean": 4.43,
+  "ccMean": 4.46,
   "ccP90": 8,
   "ccMax": 40,
-  "ccHigh": 7,
+  "ccHigh": 8,
   "ccVeryHigh": 4,
   "parseErrors": 0
  },
@@ -1882,6 +1899,14 @@
    "sloc": 43
   },
   {
+   "file": "src/lib/authentication.ts",
+   "line": 81,
+   "name": "parseAuthenticationResults",
+   "mi": 40.3,
+   "cc": 14,
+   "sloc": 39
+  },
+  {
    "file": "src/lib/generate-summary.ts",
    "line": 442,
    "name": "normalizeResult",
@@ -1896,14 +1921,6 @@
    "mi": 41.4,
    "cc": 13,
    "sloc": 41
-  },
-  {
-   "file": "src/lib/authentication.ts",
-   "line": 80,
-   "name": "parseAuthenticationResults",
-   "mi": 43.6,
-   "cc": 10,
-   "sloc": 32
   },
   {
    "file": "src/lib/generate-summary.ts",

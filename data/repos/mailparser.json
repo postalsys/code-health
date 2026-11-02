@@ -2807,37 +2807,88 @@
    "ccHigh": 6,
    "ccVeryHigh": 3,
    "parseErrors": 0
+  },
+  {
+   "ref": "v3.13.0",
+   "commit": "22f1c6336511d2a2a9b0a9dff08dc6e5551a7522",
+   "date": "2026-10-29T09:57:48+02:00",
+   "files": 8,
+   "loc": 2291,
+   "sloc": 1680,
+   "functions": 126,
+   "mi": 48.6,
+   "lowMiShare": 0,
+   "ccMean": 4.03,
+   "ccP90": 8,
+   "ccMax": 43,
+   "ccHigh": 7,
+   "ccVeryHigh": 3,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v3.14.0",
+   "commit": "d94901750c577ca9af7aa1d76de35af33c0bcbff",
+   "date": "2026-10-29T14:26:02+02:00",
+   "files": 8,
+   "loc": 2294,
+   "sloc": 1677,
+   "functions": 129,
+   "mi": 48.8,
+   "lowMiShare": 0,
+   "ccMean": 3.97,
+   "ccP90": 8,
+   "ccMax": 43,
+   "ccHigh": 7,
+   "ccVeryHigh": 3,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v3.14.1",
+   "commit": "fdeb80047e6e0bc877019a7735047530b4b5db69",
+   "date": "2026-10-29T14:36:42+02:00",
+   "files": 8,
+   "loc": 2294,
+   "sloc": 1677,
+   "functions": 129,
+   "mi": 48.8,
+   "lowMiShare": 0,
+   "ccMean": 3.97,
+   "ccP90": 8,
+   "ccMax": 43,
+   "ccHigh": 7,
+   "ccVeryHigh": 3,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "79bbbfc14dfa63ec1de9a7e36bbe001e12437f52",
-  "date": "2026-10-22T19:21:36+03:00",
-  "files": 7,
-  "loc": 2076,
-  "sloc": 1538,
-  "functions": 118,
-  "mi": 48.3,
+  "commit": "ce3555029e07a52fd32002b917546a0264094583",
+  "date": "2026-10-29T16:07:23+02:00",
+  "files": 8,
+  "loc": 2294,
+  "sloc": 1677,
+  "functions": 129,
+  "mi": 48.8,
   "lowMiShare": 0,
-  "ccMean": 3.87,
+  "ccMean": 3.97,
   "ccP90": 8,
-  "ccMax": 42,
-  "ccHigh": 6,
+  "ccMax": 43,
+  "ccHigh": 7,
   "ccVeryHigh": 3,
   "parseErrors": 0
  },
  "worst": [
   {
    "file": "src/mail-parser.ts",
-   "line": 1029,
+   "line": 1038,
    "name": "processChunk",
-   "mi": 20.7,
-   "cc": 42,
-   "sloc": 138
+   "mi": 20.3,
+   "cc": 43,
+   "sloc": 142
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 531,
+   "line": 540,
    "name": "<anonymous>",
    "mi": 27.5,
    "cc": 37,
@@ -2845,7 +2896,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 889,
+   "line": 898,
    "name": "processNode",
    "mi": 32.1,
    "cc": 25,
@@ -2853,7 +2904,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 787,
+   "line": 796,
    "name": "createNode",
    "mi": 32.4,
    "cc": 20,
@@ -2861,7 +2912,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 121,
+   "line": 123,
    "name": "exceedsHtmlNestingDepth",
    "mi": 37.8,
    "cc": 16,
@@ -2877,7 +2928,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 1428,
+   "line": 1441,
    "name": "textToHtml",
    "mi": 41.9,
    "cc": 7,
@@ -2893,15 +2944,23 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 333,
+   "line": 342,
    "name": "constructor",
    "mi": 42.3,
    "cc": 3,
    "sloc": 39
   },
   {
+   "file": "src/otp-token.ts",
+   "line": 87,
+   "name": "parseStringItem",
+   "mi": 45.9,
+   "cc": 7,
+   "sloc": 28
+  },
+  {
    "file": "src/mail-parser.ts",
-   "line": 1384,
+   "line": 1397,
    "name": "findLinks",
    "mi": 46.7,
    "cc": 8,
@@ -2909,7 +2968,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 1279,
+   "line": 1292,
    "name": "updateImageLinks",
    "mi": 48.8,
    "cc": 4,
@@ -2917,7 +2976,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 529,
+   "line": 538,
    "name": "processHeaders",
    "mi": 49.4,
    "cc": 2,
@@ -2925,7 +2984,7 @@
   },
   {
    "file": "src/simple-parser.ts",
-   "line": 80,
+   "line": 83,
    "name": "reader",
    "mi": 49.5,
    "cc": 4,
@@ -2933,19 +2992,11 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 737,
+   "line": 746,
    "name": "parsePriority",
    "mi": 49.7,
    "cc": 9,
    "sloc": 23
-  },
-  {
-   "file": "src/mail-parser.ts",
-   "line": 885,
-   "name": "getTextContent",
-   "mi": 50,
-   "cc": 4,
-   "sloc": 22
   }
  ]
 }
