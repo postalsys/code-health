@@ -7006,41 +7006,67 @@
    "ccHigh": 404,
    "ccVeryHigh": 128,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.87.1",
+   "commit": "bacefcc9f87f0091fc5eda1bd2ed3cf6fe1f2306",
+   "date": "2026-11-05T14:38:03+02:00",
+   "files": 338,
+   "loc": 108257,
+   "sloc": 83777,
+   "functions": 5194,
+   "mi": 45.1,
+   "lowMiShare": 5.3,
+   "ccMean": 4.14,
+   "ccP90": 9,
+   "ccMax": 123,
+   "ccHigh": 402,
+   "ccVeryHigh": 128,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v2.87.2",
+   "commit": "daaf48f79bec6f60a89354496965a5ea910a928b",
+   "date": "2026-11-05T17:20:16+02:00",
+   "files": 343,
+   "loc": 109003,
+   "sloc": 84266,
+   "functions": 5243,
+   "mi": 45.2,
+   "lowMiShare": 5.3,
+   "ccMean": 4.13,
+   "ccP90": 9,
+   "ccMax": 123,
+   "ccHigh": 405,
+   "ccVeryHigh": 128,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "7c597f5d93b814fd772200916ccbbb07b28cd01d",
-  "date": "2026-10-29T16:52:29+02:00",
-  "files": 325,
-  "loc": 107764,
-  "sloc": 83704,
-  "functions": 5170,
-  "mi": 45,
-  "lowMiShare": 5.7,
-  "ccMean": 4.16,
+  "commit": "04ed853c49bfb370dec0260a3f33fb2a44e097d3",
+  "date": "2026-11-07T22:36:28+02:00",
+  "files": 349,
+  "loc": 110035,
+  "sloc": 84854,
+  "functions": 5323,
+  "mi": 45.3,
+  "lowMiShare": 5.3,
+  "ccMean": 4.11,
   "ccP90": 9,
   "ccMax": 123,
-  "ccHigh": 404,
+  "ccHigh": 402,
   "ccVeryHigh": 128,
   "parseErrors": 0
  },
  "worst": [
   {
    "file": "lib/email-client/base-client.js",
-   "line": 2221,
+   "line": 2234,
    "name": "queueMessageEntry",
    "mi": 0,
    "cc": 123,
    "sloc": 337
-  },
-  {
-   "file": "lib/email-client/imap/mailbox.js",
-   "line": 1420,
-   "name": "processNew",
-   "mi": 0.1,
-   "cc": 114,
-   "sloc": 328
   },
   {
    "file": "lib/imapproxy/imap-core/lib/handler/imap-parser.js",
@@ -7052,15 +7078,23 @@
   },
   {
    "file": "lib/oauth2-apps.js",
-   "line": 1252,
+   "line": 1253,
    "name": "ensurePubsubLocked",
    "mi": 5.5,
    "cc": 92,
    "sloc": 281
   },
   {
+   "file": "lib/email-client/imap/mailbox.js",
+   "line": 1461,
+   "name": "processNew",
+   "mi": 6,
+   "cc": 86,
+   "sloc": 277
+  },
+  {
    "file": "lib/email-client/base-client.js",
-   "line": 1908,
+   "line": 1921,
    "name": "prepareRawMessage",
    "mi": 10.7,
    "cc": 75,
@@ -7068,7 +7102,7 @@
   },
   {
    "file": "server.js",
-   "line": 1459,
+   "line": 1472,
    "name": "<anonymous>",
    "mi": 12,
    "cc": 67,
@@ -7083,12 +7117,12 @@
    "sloc": 210
   },
   {
-   "file": "lib/email-client/base-client.js",
-   "line": 3030,
-   "name": "processNew",
-   "mi": 12.7,
-   "cc": 73,
-   "sloc": 193
+   "file": "lib/api-token-auth.js",
+   "line": 49,
+   "name": "validateApiToken",
+   "mi": 12.6,
+   "cc": 62,
+   "sloc": 207
   },
   {
    "file": "lib/imapproxy/imap-core/lib/commands/fetch.js",
@@ -7099,16 +7133,8 @@
    "sloc": 206
   },
   {
-   "file": "workers/api.js",
-   "line": 850,
-   "name": "validate",
-   "mi": 13.1,
-   "cc": 58,
-   "sloc": 211
-  },
-  {
    "file": "lib/account.js",
-   "line": 518,
+   "line": 553,
    "name": "<anonymous>",
    "mi": 15.9,
    "cc": 67,
@@ -7116,7 +7142,7 @@
   },
   {
    "file": "lib/account.js",
-   "line": 787,
+   "line": 822,
    "name": "<anonymous>",
    "mi": 16.1,
    "cc": 69,
@@ -7124,7 +7150,7 @@
   },
   {
    "file": "lib/email-client/outlook-client.js",
-   "line": 761,
+   "line": 763,
    "name": "listMessages",
    "mi": 16.3,
    "cc": 58,
@@ -7132,7 +7158,7 @@
   },
   {
    "file": "workers/api.js",
-   "line": 3074,
+   "line": 2634,
    "name": "context",
    "mi": 17,
    "cc": 45,
@@ -7145,6 +7171,14 @@
    "mi": 17.6,
    "cc": 49,
    "sloc": 156
+  },
+  {
+   "file": "lib/email-client/gmail-client.js",
+   "line": 334,
+   "name": "init",
+   "mi": 18.5,
+   "cc": 54,
+   "sloc": 146
   }
  ]
 }

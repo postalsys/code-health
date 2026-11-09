@@ -631,12 +631,29 @@
    "ccHigh": 8,
    "ccVeryHigh": 0,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.0.4",
+   "commit": "7cef5dfa36e2b20bf20d102dc5b8a7c193737c9f",
+   "date": "2026-11-04T22:52:45+02:00",
+   "files": 10,
+   "loc": 2832,
+   "sloc": 2031,
+   "functions": 158,
+   "mi": 50.8,
+   "lowMiShare": 0,
+   "ccMean": 3.72,
+   "ccP90": 9,
+   "ccMax": 19,
+   "ccHigh": 8,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "27c8709eb8d4c9965b3ef768e33483a988cc29a0",
-  "date": "2026-10-29T16:03:36+02:00",
+  "commit": "7cef5dfa36e2b20bf20d102dc5b8a7c193737c9f",
+  "date": "2026-11-04T22:52:45+02:00",
   "files": 10,
   "loc": 2832,
   "sloc": 2031,

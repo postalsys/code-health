@@ -1005,15 +1005,32 @@
    "ccHigh": 8,
    "ccVeryHigh": 1,
    "parseErrors": 0
+  },
+  {
+   "ref": "v5.6.4",
+   "commit": "96ebc0d2ee12c6d477104467a20d02a407bf5a98",
+   "date": "2026-11-04T11:40:28+02:00",
+   "files": 6,
+   "loc": 3988,
+   "sloc": 3453,
+   "functions": 64,
+   "mi": 46.2,
+   "lowMiShare": 0,
+   "ccMean": 5.14,
+   "ccP90": 12,
+   "ccMax": 39,
+   "ccHigh": 8,
+   "ccVeryHigh": 1,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "1acd7b3d8fe1a27800c5ebb7ee12cf7e6ab916ba",
-  "date": "2026-10-29T16:03:41+02:00",
+  "commit": "96ebc0d2ee12c6d477104467a20d02a407bf5a98",
+  "date": "2026-11-04T11:40:28+02:00",
   "files": 6,
-  "loc": 3989,
-  "sloc": 3454,
+  "loc": 3988,
+  "sloc": 3453,
   "functions": 64,
   "mi": 46.2,
   "lowMiShare": 0,
@@ -1099,9 +1116,9 @@
   },
   {
    "file": "src/charset.ts",
-   "line": 59,
+   "line": 58,
    "name": "decode",
-   "mi": 45.8,
+   "mi": 45.9,
    "cc": 9,
    "sloc": 30
   },
@@ -1123,7 +1140,7 @@
   },
   {
    "file": "src/charset.ts",
-   "line": 263,
+   "line": 262,
    "name": "constructor",
    "mi": 54.2,
    "cc": 7,
