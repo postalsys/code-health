@@ -5068,23 +5068,57 @@
    "ccHigh": 64,
    "ccVeryHigh": 21,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.12.0",
+   "commit": "027320375d683189f22abb2e5fa16bf9f851794a",
+   "date": "2026-11-15T22:06:52+02:00",
+   "files": 58,
+   "loc": 18038,
+   "sloc": 11762,
+   "functions": 683,
+   "mi": 42.8,
+   "lowMiShare": 16.5,
+   "ccMean": 5,
+   "ccP90": 10,
+   "ccMax": 128,
+   "ccHigh": 65,
+   "ccVeryHigh": 22,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v2.12.1",
+   "commit": "3b9de08ac781d2dfbd89a6c2182071e6887b6542",
+   "date": "2026-11-15T23:29:56+02:00",
+   "files": 58,
+   "loc": 18038,
+   "sloc": 11762,
+   "functions": 683,
+   "mi": 42.8,
+   "lowMiShare": 16.5,
+   "ccMean": 5,
+   "ccP90": 10,
+   "ccMax": 128,
+   "ccHigh": 65,
+   "ccVeryHigh": 22,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "baf7ad67410dec22aedf611f61695a9803ea5efe",
-  "date": "2026-11-06T14:07:19+02:00",
+  "commit": "cacc15ffa0796622ed00eb0842c75154bda48bcc",
+  "date": "2026-11-16T09:27:17+02:00",
   "files": 58,
-  "loc": 17835,
-  "sloc": 11628,
-  "functions": 678,
-  "mi": 42.9,
-  "lowMiShare": 16.7,
-  "ccMean": 4.96,
+  "loc": 18038,
+  "sloc": 11762,
+  "functions": 683,
+  "mi": 42.8,
+  "lowMiShare": 16.5,
+  "ccMean": 5,
   "ccP90": 10,
   "ccMax": 128,
-  "ccHigh": 64,
-  "ccVeryHigh": 21,
+  "ccHigh": 65,
+  "ccVeryHigh": 22,
   "parseErrors": 0
  },
  "worst": [
@@ -5129,6 +5163,14 @@
    "sloc": 151
   },
   {
+   "file": "src/imap-flow.ts",
+   "line": 1659,
+   "name": "handleResponse",
+   "mi": 18,
+   "cc": 58,
+   "sloc": 137
+  },
+  {
    "file": "src/download.ts",
    "line": 197,
    "name": "downloadMessage",
@@ -5137,16 +5179,8 @@
    "sloc": 162
   },
   {
-   "file": "src/imap-flow.ts",
-   "line": 1657,
-   "name": "handleResponse",
-   "mi": 18.7,
-   "cc": 55,
-   "sloc": 134
-  },
-  {
    "file": "src/tools.ts",
-   "line": 837,
+   "line": 863,
    "name": "formatMessageResponse",
    "mi": 19.1,
    "cc": 49,
@@ -5161,20 +5195,20 @@
    "sloc": 125
   },
   {
+   "file": "src/tools.ts",
+   "line": 1395,
+   "name": "walk",
+   "mi": 22.4,
+   "cc": 53,
+   "sloc": 106
+  },
+  {
    "file": "src/commands/append.ts",
    "line": 42,
    "name": "append",
    "mi": 22.9,
    "cc": 45,
    "sloc": 110
-  },
-  {
-   "file": "src/tools.ts",
-   "line": 1362,
-   "name": "walk",
-   "mi": 23.2,
-   "cc": 52,
-   "sloc": 101
   },
   {
    "file": "src/commands/select.ts",
@@ -5186,7 +5220,7 @@
   },
   {
    "file": "src/imap-flow.ts",
-   "line": 876,
+   "line": 878,
    "name": "constructor",
    "mi": 26.2,
    "cc": 20,
@@ -5194,19 +5228,19 @@
   },
   {
    "file": "src/imap-flow.ts",
-   "line": 4782,
+   "line": 4789,
    "name": "processLocks",
    "mi": 27,
    "cc": 27,
    "sloc": 106
   },
   {
-   "file": "src/download.ts",
-   "line": 270,
-   "name": "getNextPart",
-   "mi": 28.8,
-   "cc": 30,
-   "sloc": 87
+   "file": "src/commands/search.ts",
+   "line": 56,
+   "name": "search",
+   "mi": 27.5,
+   "cc": 32,
+   "sloc": 90
   }
  ]
 }

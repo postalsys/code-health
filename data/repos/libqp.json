@@ -206,20 +206,37 @@
    "ccHigh": 3,
    "ccVeryHigh": 0,
    "parseErrors": 0
+  },
+  {
+   "ref": "v3.0.2",
+   "commit": "8ee1da42a20644229cfe1e5e4038de4f77d2ec82",
+   "date": "2026-11-15T22:21:03+02:00",
+   "files": 2,
+   "loc": 566,
+   "sloc": 391,
+   "functions": 24,
+   "mi": 51.7,
+   "lowMiShare": 0,
+   "ccMean": 5.33,
+   "ccP90": 12,
+   "ccMax": 17,
+   "ccHigh": 3,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "feee63443830917fcb2d2dab2a02a5feb7639aee",
-  "date": "2026-11-04T11:23:46+02:00",
+  "commit": "8ee1da42a20644229cfe1e5e4038de4f77d2ec82",
+  "date": "2026-11-15T22:21:03+02:00",
   "files": 2,
-  "loc": 402,
-  "sloc": 261,
-  "functions": 16,
-  "mi": 51.4,
+  "loc": 566,
+  "sloc": 391,
+  "functions": 24,
+  "mi": 51.7,
   "lowMiShare": 0,
-  "ccMean": 6.06,
-  "ccP90": 13,
+  "ccMean": 5.33,
+  "ccP90": 12,
   "ccMax": 17,
   "ccHigh": 3,
   "ccVeryHigh": 0,
@@ -252,11 +269,35 @@
   },
   {
    "file": "src/libqp.ts",
+   "line": 562,
+   "name": "_unescape",
+   "mi": 48.6,
+   "cc": 6,
+   "sloc": 25
+  },
+  {
+   "file": "src/libqp.ts",
+   "line": 534,
+   "name": "_soften",
+   "mi": 48.7,
+   "cc": 7,
+   "sloc": 26
+  },
+  {
+   "file": "src/libqp.ts",
    "line": 365,
    "name": "_encodeSlices",
    "mi": 49.4,
    "cc": 7,
    "sloc": 19
+  },
+  {
+   "file": "src/libqp.ts",
+   "line": 501,
+   "name": "_trim",
+   "mi": 49.7,
+   "cc": 7,
+   "sloc": 20
   },
   {
    "file": "src/libqp.ts",
@@ -273,6 +314,30 @@
    "mi": 50.9,
    "cc": 7,
    "sloc": 18
+  },
+  {
+   "file": "src/libqp.ts",
+   "line": 477,
+   "name": "_flush",
+   "mi": 53,
+   "cc": 4,
+   "sloc": 18
+  },
+  {
+   "file": "src/libqp.ts",
+   "line": 455,
+   "name": "_transform",
+   "mi": 53.9,
+   "cc": 4,
+   "sloc": 15
+  },
+  {
+   "file": "src/libqp.ts",
+   "line": 435,
+   "name": "constructor",
+   "mi": 55.3,
+   "cc": 2,
+   "sloc": 15
   },
   {
    "file": "src/libqp.ts",
@@ -297,54 +362,6 @@
    "mi": 56.9,
    "cc": 4,
    "sloc": 13
-  },
-  {
-   "file": "src/libqp.ts",
-   "line": 134,
-   "name": "hexValue",
-   "mi": 58,
-   "cc": 7,
-   "sloc": 12
-  },
-  {
-   "file": "src/libqp.ts",
-   "line": 433,
-   "name": "_flush",
-   "mi": 60.4,
-   "cc": 2,
-   "sloc": 10
-  },
-  {
-   "file": "src/libqp.ts",
-   "line": 418,
-   "name": "_transform",
-   "mi": 60.6,
-   "cc": 3,
-   "sloc": 9
-  },
-  {
-   "file": "src/libqp.ts",
-   "line": 405,
-   "name": "constructor",
-   "mi": 63.7,
-   "cc": 2,
-   "sloc": 8
-  },
-  {
-   "file": "src/libqp.ts",
-   "line": 23,
-   "name": "encode",
-   "mi": 73.9,
-   "cc": 2,
-   "sloc": 3
-  },
-  {
-   "file": "src/libqp.ts",
-   "line": 266,
-   "name": "toBuffer",
-   "mi": 78.1,
-   "cc": 2,
-   "sloc": 2
   }
  ]
 }

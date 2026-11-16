@@ -1192,42 +1192,111 @@
    "ccHigh": 5,
    "ccVeryHigh": 0,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.6.4",
+   "commit": "e4a6272b00efa10ddb77e8d130bd77002d056a37",
+   "date": "2026-11-10T11:49:45+02:00",
+   "files": 14,
+   "loc": 1572,
+   "sloc": 1335,
+   "functions": 74,
+   "mi": 50.1,
+   "lowMiShare": 0,
+   "ccMean": 4.54,
+   "ccP90": 9,
+   "ccMax": 20,
+   "ccHigh": 5,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v3.0.0",
+   "commit": "81f8a433b4299dca811e1f91d4ea1157fc876133",
+   "date": "2026-11-15T18:49:11+02:00",
+   "files": 15,
+   "loc": 1604,
+   "sloc": 1345,
+   "functions": 74,
+   "mi": 49.9,
+   "lowMiShare": 0,
+   "ccMean": 4.58,
+   "ccP90": 9,
+   "ccMax": 20,
+   "ccHigh": 6,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v3.0.1",
+   "commit": "8843a79bb3c4f2d6d7997d8ebaf8dbd777fa2171",
+   "date": "2026-11-15T23:38:18+02:00",
+   "files": 15,
+   "loc": 1604,
+   "sloc": 1345,
+   "functions": 74,
+   "mi": 49.9,
+   "lowMiShare": 0,
+   "ccMean": 4.58,
+   "ccP90": 9,
+   "ccMax": 20,
+   "ccHigh": 6,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v3.0.2",
+   "commit": "685215af5095f00c9d8c5e0da06ae1a02b624e36",
+   "date": "2026-11-16T09:20:11+02:00",
+   "files": 15,
+   "loc": 1623,
+   "sloc": 1356,
+   "functions": 76,
+   "mi": 50.1,
+   "lowMiShare": 0,
+   "ccMean": 4.49,
+   "ccP90": 9,
+   "ccMax": 20,
+   "ccHigh": 6,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
+  },
+  {
+   "ref": "v3.1.0",
+   "commit": "6d075c59bef10ae853afd577d9b666c75b13b08f",
+   "date": "2026-11-16T13:34:17+02:00",
+   "files": 19,
+   "loc": 2081,
+   "sloc": 1684,
+   "functions": 99,
+   "mi": 53,
+   "lowMiShare": 0,
+   "ccMean": 4.13,
+   "ccP90": 9,
+   "ccMax": 20,
+   "ccHigh": 6,
+   "ccVeryHigh": 0,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "645dd445ee56f283401b34c4d1e26e75210d7ce9",
-  "date": "2026-11-04T22:58:00+02:00",
-  "files": 14,
-  "loc": 1572,
-  "sloc": 1335,
-  "functions": 74,
-  "mi": 50.1,
+  "commit": "6d075c59bef10ae853afd577d9b666c75b13b08f",
+  "date": "2026-11-16T13:34:17+02:00",
+  "files": 19,
+  "loc": 2081,
+  "sloc": 1684,
+  "functions": 99,
+  "mi": 53,
   "lowMiShare": 0,
-  "ccMean": 4.54,
+  "ccMean": 4.13,
   "ccP90": 9,
   "ccMax": 20,
-  "ccHigh": 5,
+  "ccHigh": 6,
   "ccVeryHigh": 0,
   "parseErrors": 0
  },
  "worst": [
-  {
-   "file": "src/lib/inline-html.ts",
-   "line": 97,
-   "name": "inlineHtml",
-   "mi": 30.7,
-   "cc": 17,
-   "sloc": 89
-  },
-  {
-   "file": "src/lib/inline-text.ts",
-   "line": 45,
-   "name": "inlineText",
-   "mi": 33.3,
-   "cc": 17,
-   "sloc": 71
-  },
   {
    "file": "src/lib/html-guard.ts",
    "line": 24,
@@ -1237,8 +1306,16 @@
    "sloc": 55
   },
   {
+   "file": "src/lib/inline-html.ts",
+   "line": 110,
+   "name": "inlineHtml",
+   "mi": 38.6,
+   "cc": 10,
+   "sloc": 51
+  },
+  {
    "file": "src/lib/mime-html.ts",
-   "line": 324,
+   "line": 334,
    "name": "prepareHtml",
    "mi": 40.4,
    "cc": 13,
@@ -1246,15 +1323,31 @@
   },
   {
    "file": "src/lib/mime-html.ts",
-   "line": 422,
+   "line": 436,
    "name": "finishHtml",
-   "mi": 44.7,
+   "mi": 42.4,
+   "cc": 11,
+   "sloc": 34
+  },
+  {
+   "file": "src/lib/inline-text.ts",
+   "line": 60,
+   "name": "inlineText",
+   "mi": 42.7,
    "cc": 9,
-   "sloc": 29
+   "sloc": 36
+  },
+  {
+   "file": "src/lib/inline-locales.ts",
+   "line": 170,
+   "name": "resolveKey",
+   "mi": 43.1,
+   "cc": 18,
+   "sloc": 32
   },
   {
    "file": "src/lib/text-to-html.ts",
-   "line": 93,
+   "line": 114,
    "name": "linkifyAndHtmlEscape",
    "mi": 44.7,
    "cc": 7,
@@ -1262,7 +1355,7 @@
   },
   {
    "file": "src/lib/text-to-html.ts",
-   "line": 176,
+   "line": 197,
    "name": "processQuotedNode",
    "mi": 44.8,
    "cc": 11,
@@ -1278,7 +1371,7 @@
   },
   {
    "file": "src/lib/text-to-html.ts",
-   "line": 143,
+   "line": 164,
    "name": "textLinesToHtml",
    "mi": 47.1,
    "cc": 9,
@@ -1286,15 +1379,23 @@
   },
   {
    "file": "src/lib/mime-html.ts",
-   "line": 267,
+   "line": 277,
    "name": "hasNotWithPseudo",
    "mi": 47.2,
    "cc": 9,
    "sloc": 27
   },
   {
+   "file": "src/lib/inline-header.ts",
+   "line": 105,
+   "name": "forwardLines",
+   "mi": 47.4,
+   "cc": 9,
+   "sloc": 24
+  },
+  {
    "file": "src/lib/mime-html.ts",
-   "line": 228,
+   "line": 238,
    "name": "countSelectors",
    "mi": 48,
    "cc": 10,
@@ -1302,35 +1403,19 @@
   },
   {
    "file": "src/lib/text-to-html.ts",
-   "line": 50,
+   "line": 71,
    "name": "walkNode",
    "mi": 48.2,
    "cc": 7,
    "sloc": 23
   },
   {
-   "file": "src/lib/worker-pool.ts",
+   "file": "src/lib/date-parts.ts",
    "line": 79,
-   "name": "_createWorker",
-   "mi": 50.1,
-   "cc": 3,
-   "sloc": 23
-  },
-  {
-   "file": "src/lib/format-date.ts",
-   "line": 42,
-   "name": "formatDate",
-   "mi": 50.2,
-   "cc": 7,
-   "sloc": 19
-  },
-  {
-   "file": "src/lib/worker-pool.ts",
-   "line": 116,
    "name": "<anonymous>",
-   "mi": 50.8,
-   "cc": 6,
-   "sloc": 20
+   "mi": 48.7,
+   "cc": 13,
+   "sloc": 21
   }
  ]
 }

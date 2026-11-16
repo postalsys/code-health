@@ -257,15 +257,32 @@
    "ccHigh": 5,
    "ccVeryHigh": 1,
    "parseErrors": 0
+  },
+  {
+   "ref": "v3.0.0",
+   "commit": "c9a8a4d2a11c597d868c2f0d68aa777536c5465a",
+   "date": "2026-11-16T09:02:08+02:00",
+   "files": 2,
+   "loc": 846,
+   "sloc": 740,
+   "functions": 130,
+   "mi": 58.8,
+   "lowMiShare": 0,
+   "ccMean": 2.5,
+   "ccP90": 5,
+   "ccMax": 30,
+   "ccHigh": 5,
+   "ccVeryHigh": 1,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "7fb554ee7f3bd0d444062176a440810803b8fd2f",
-  "date": "2026-11-04T11:38:11+02:00",
+  "commit": "c9a8a4d2a11c597d868c2f0d68aa777536c5465a",
+  "date": "2026-11-16T09:02:08+02:00",
   "files": 2,
-  "loc": 840,
-  "sloc": 739,
+  "loc": 846,
+  "sloc": 740,
   "functions": 130,
   "mi": 58.8,
   "lowMiShare": 0,
@@ -303,7 +320,7 @@
   },
   {
    "file": "src/templates.ts",
-   "line": 224,
+   "line": 231,
    "name": "getTemplate",
    "mi": 44.6,
    "cc": 16,
@@ -335,7 +352,7 @@
   },
   {
    "file": "src/templates.ts",
-   "line": 47,
+   "line": 53,
    "name": "<anonymous>",
    "mi": 50.1,
    "cc": 7,
@@ -383,7 +400,7 @@
   },
   {
    "file": "src/templates.ts",
-   "line": 113,
+   "line": 119,
    "name": "<anonymous>",
    "mi": 57.8,
    "cc": 4,
