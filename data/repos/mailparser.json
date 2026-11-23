@@ -2926,21 +2926,38 @@
    "ccHigh": 7,
    "ccVeryHigh": 3,
    "parseErrors": 0
+  },
+  {
+   "ref": "v3.15.0",
+   "commit": "6608f9dd28c17d5db25fa8c41c4ba20616567408",
+   "date": "2026-11-20T11:36:38+02:00",
+   "files": 8,
+   "loc": 2320,
+   "sloc": 1692,
+   "functions": 131,
+   "mi": 48.8,
+   "lowMiShare": 0,
+   "ccMean": 3.92,
+   "ccP90": 8,
+   "ccMax": 44,
+   "ccHigh": 7,
+   "ccVeryHigh": 3,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "5e635d3a5261d9690720de73c34c1d603677118e",
-  "date": "2026-11-16T09:02:13+02:00",
+  "commit": "6608f9dd28c17d5db25fa8c41c4ba20616567408",
+  "date": "2026-11-20T11:36:38+02:00",
   "files": 8,
-  "loc": 2314,
-  "sloc": 1691,
+  "loc": 2320,
+  "sloc": 1692,
   "functions": 131,
-  "mi": 48.9,
+  "mi": 48.8,
   "lowMiShare": 0,
   "ccMean": 3.92,
   "ccP90": 8,
-  "ccMax": 43,
+  "ccMax": 44,
   "ccHigh": 7,
   "ccVeryHigh": 3,
   "parseErrors": 0
@@ -2950,8 +2967,8 @@
    "file": "src/mail-parser.ts",
    "line": 1061,
    "name": "processChunk",
-   "mi": 20.3,
-   "cc": 43,
+   "mi": 20.1,
+   "cc": 44,
    "sloc": 142
   },
   {
@@ -2996,7 +3013,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 1463,
+   "line": 1462,
    "name": "textToHtml",
    "mi": 41.9,
    "cc": 7,
@@ -3028,7 +3045,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 1419,
+   "line": 1418,
    "name": "findLinks",
    "mi": 47,
    "cc": 7,
@@ -3036,7 +3053,7 @@
   },
   {
    "file": "src/mail-parser.ts",
-   "line": 1315,
+   "line": 1314,
    "name": "updateImageLinks",
    "mi": 48.8,
    "cc": 4,

@@ -7074,34 +7074,43 @@
    "ccHigh": 406,
    "ccVeryHigh": 128,
    "parseErrors": 0
+  },
+  {
+   "ref": "v2.90.0",
+   "commit": "986988e302a8a93d8b8e222eab6372f8f0a4a7bf",
+   "date": "2026-11-20T18:08:01+02:00",
+   "files": 366,
+   "loc": 112179,
+   "sloc": 85512,
+   "functions": 5684,
+   "mi": 47.6,
+   "lowMiShare": 1,
+   "ccMean": 3.89,
+   "ccP90": 9,
+   "ccMax": 103,
+   "ccHigh": 416,
+   "ccVeryHigh": 99,
+   "parseErrors": 0
   }
  ],
  "head": {
   "ref": "HEAD",
-  "commit": "454a6ddc23f9de95f326e8ba55e3e8e0cb67b9a0",
-  "date": "2026-11-16T13:39:48+02:00",
-  "files": 355,
-  "loc": 111155,
-  "sloc": 85576,
-  "functions": 5400,
-  "mi": 45.3,
-  "lowMiShare": 5.5,
-  "ccMean": 4.1,
+  "commit": "92cfab95de7e985d4fee67d1074c34c0df339314",
+  "date": "2026-11-21T23:04:04+02:00",
+  "files": 366,
+  "loc": 112296,
+  "sloc": 85590,
+  "functions": 5694,
+  "mi": 47.6,
+  "lowMiShare": 1,
+  "ccMean": 3.88,
   "ccP90": 9,
-  "ccMax": 123,
-  "ccHigh": 408,
-  "ccVeryHigh": 128,
+  "ccMax": 103,
+  "ccHigh": 417,
+  "ccVeryHigh": 99,
   "parseErrors": 0
  },
  "worst": [
-  {
-   "file": "lib/email-client/base-client.js",
-   "line": 2234,
-   "name": "queueMessageEntry",
-   "mi": 0,
-   "cc": 123,
-   "sloc": 337
-  },
   {
    "file": "lib/imapproxy/imap-core/lib/handler/imap-parser.js",
    "line": 125,
@@ -7109,54 +7118,6 @@
    "mi": 1,
    "cc": 103,
    "sloc": 326
-  },
-  {
-   "file": "lib/oauth2-apps.js",
-   "line": 1253,
-   "name": "ensurePubsubLocked",
-   "mi": 5.5,
-   "cc": 92,
-   "sloc": 281
-  },
-  {
-   "file": "lib/email-client/imap/mailbox.js",
-   "line": 1461,
-   "name": "processNew",
-   "mi": 6,
-   "cc": 86,
-   "sloc": 277
-  },
-  {
-   "file": "lib/email-client/base-client.js",
-   "line": 1921,
-   "name": "prepareRawMessage",
-   "mi": 10.7,
-   "cc": 75,
-   "sloc": 220
-  },
-  {
-   "file": "server.js",
-   "line": 1186,
-   "name": "<anonymous>",
-   "mi": 12,
-   "cc": 67,
-   "sloc": 214
-  },
-  {
-   "file": "lib/ui-routes/account-routes.js",
-   "line": 1383,
-   "name": "handler",
-   "mi": 12.2,
-   "cc": 65,
-   "sloc": 210
-  },
-  {
-   "file": "lib/api-token-auth.js",
-   "line": 49,
-   "name": "validateApiToken",
-   "mi": 12.6,
-   "cc": 62,
-   "sloc": 207
   },
   {
    "file": "lib/imapproxy/imap-core/lib/commands/fetch.js",
@@ -7167,52 +7128,108 @@
    "sloc": 206
   },
   {
-   "file": "lib/account.js",
-   "line": 553,
-   "name": "<anonymous>",
-   "mi": 15.9,
-   "cc": 67,
-   "sloc": 164
+   "file": "lib/api-routes/submit-routes.js",
+   "line": 113,
+   "name": "buildSubmitMessagePayloadSchema",
+   "mi": 19.9,
+   "cc": 1,
+   "sloc": 226
   },
   {
-   "file": "lib/account.js",
-   "line": 822,
+   "file": "lib/metrics.js",
+   "line": 15,
+   "name": "createMetrics",
+   "mi": 20.8,
+   "cc": 1,
+   "sloc": 228
+  },
+  {
+   "file": "lib/imapproxy/imap-core/lib/handler/imap-compile-stream.js",
+   "line": 78,
+   "name": "walk",
+   "mi": 21,
+   "cc": 57,
+   "sloc": 116
+  },
+  {
+   "file": "lib/api-routes/account-routes.js",
+   "line": 1195,
+   "name": "registerGetAccount",
+   "mi": 21.1,
+   "cc": 1,
+   "sloc": 197
+  },
+  {
+   "file": "lib/imapproxy/imap-core/lib/indexer/indexer.js",
+   "line": 436,
+   "name": "walk",
+   "mi": 21.2,
+   "cc": 51,
+   "sloc": 121
+  },
+  {
+   "file": "lib/imapproxy/imap-core/lib/imap-tools.js",
+   "line": 513,
    "name": "<anonymous>",
-   "mi": 16.1,
-   "cc": 69,
-   "sloc": 149
+   "mi": 21.5,
+   "cc": 47,
+   "sloc": 130
+  },
+  {
+   "file": "lib/api-routes/account-routes.js",
+   "line": 1203,
+   "name": "handler",
+   "mi": 22.3,
+   "cc": 44,
+   "sloc": 125
+  },
+  {
+   "file": "lib/submit-processor.js",
+   "line": 45,
+   "name": "<anonymous>",
+   "mi": 22.6,
+   "cc": 20,
+   "sloc": 161
   },
   {
    "file": "lib/email-client/outlook-client.js",
-   "line": 763,
-   "name": "listMessages",
-   "mi": 16.3,
-   "cc": 58,
-   "sloc": 172
+   "line": 3818,
+   "name": "ensureSubscriptionLocked",
+   "mi": 22.7,
+   "cc": 34,
+   "sloc": 134
   },
   {
-   "file": "workers/api.js",
-   "line": 2466,
-   "name": "context",
-   "mi": 16.7,
-   "cc": 45,
-   "sloc": 196
+   "file": "lib/ui-routes/account-routes.js",
+   "line": 1301,
+   "name": "handler",
+   "mi": 22.8,
+   "cc": 42,
+   "sloc": 115
   },
   {
-   "file": "lib/mcp/tools.js",
-   "line": 108,
-   "name": "buildToolRegistry",
-   "mi": 18,
-   "cc": 46,
-   "sloc": 156
+   "file": "server.js",
+   "line": 2018,
+   "name": "licenseCheckHandler",
+   "mi": 23.1,
+   "cc": 37,
+   "sloc": 117
   },
   {
-   "file": "lib/email-client/gmail-client.js",
-   "line": 334,
-   "name": "init",
-   "mi": 18.5,
-   "cc": 54,
-   "sloc": 146
+   "file": "lib/oauth2-apps.js",
+   "line": 641,
+   "name": "migrateLegacyAppsLocked",
+   "mi": 23.2,
+   "cc": 31,
+   "sloc": 126
+  },
+  {
+   "file": "lib/oauth/verify-app.js",
+   "line": 245,
+   "name": "verifyGmailService",
+   "mi": 23.9,
+   "cc": 34,
+   "sloc": 116
   }
  ]
 }
